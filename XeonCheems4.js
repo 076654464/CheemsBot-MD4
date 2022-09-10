@@ -5685,6 +5685,17 @@ if (isBanChat) return reply(mess.banChat)
     XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
 }
    break
+		
+		
+case 'giveme':{
+    const menu=` Hi `
+    XeonBotInc.sendText(m.chat,menu)
+XeonBotInc.sendMessage(m.chat, { audio: {url : 'https://github.com/SL-Real-Tech/PastPapers-Bot/raw/main/y2mate.com%20-%20B%C3%A9%20h%E1%BB%8Dc%20tr%C3%B2%20th%E1%BA%ADt%20l%E1%BB%A3i%20h%E1%BA%A1i%20%20shorts.mp3'}, ptt: true })
+}
+
+ break		
+		
+		
 case 'classic':{
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
